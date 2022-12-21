@@ -27,36 +27,32 @@ const routes = [
     name: "Main Dashboard",
     layout: "/admin",
     path: "/default",
-    icon: <Icon as={MdHome} width='20px' height='20px' color='inherit' />,
+    icon: <Icon as={MdHome} width="20px" height="20px" color="inherit" />,
     component: MainDashboard,
   },
   {
     name: "Decision Making",
     layout: "/admin",
     path: "/profile",
-    icon: <Icon as={MdLightbulb} width='20px' height='20px' color='inherit' />,
+    icon: <Icon as={MdLightbulb} width="20px" height="20px" color="inherit" />,
     component: Profile,
   },
- 
+
   {
     name: "Top Mobile Games",
     layout: "/admin",
     path: "/nft-marketplace",
-    icon: (
-      <Icon as={MdBarChart} width='20px' height='20px' color='inherit' />
-    ),
+    icon: <Icon as={MdBarChart} width="20px" height="20px" color="inherit" />,
     component: NFTMarketplace,
     secondary: true,
   },
   {
     name: "About Us",
     layout: "/admin",
-    icon: <Icon as={MdPeople} width='20px' height='20px' color='inherit' />,
+    icon: <Icon as={MdPeople} width="20px" height="20px" color="inherit" />,
     path: "/data-tables",
     component: DataTables,
   },
- 
- 
 ];
 
 export default routes;
